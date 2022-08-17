@@ -1,0 +1,285 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 26px;
+    font-weight: bold;
+    margin: 5px auto;
+
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 780px;
+    padding: 0 15px;
+
+}
+a:hover{
+    cursor: pointer;
+}
+
+
+
+  /* ///////////////   SPACES container      / /////////////////// */
+
+
+.spaces-inner{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px ;
+    gap: 15px;
+}
+
+.spaces-left h2{
+    font-size: 44px;
+}
+.spaces-left {
+    width: 50%;
+}
+.spaces-left p{
+    margin-bottom: 15px;
+}
+.spaces-left a{
+    border: 1px solid skyblue;
+    font-size: 12px;
+    padding: 5px;
+    
+}
+.spaces-top-right img {
+    margin-bottom: 5px;
+}
+.spaces-bottom-right {
+    display: flex;
+    justify-content: space-between;
+  }
+  .spaces-bottom-right img{
+     width: calc(50% - 5px);
+     object-fit: cover;
+  }
+
+
+  /* ///////////////   Architecture container      / /////////////////// */
+
+
+
+.architecture-inner{
+    background-color:rgb(240, 240, 240);
+    padding: 40px;
+    text-align: center;
+}
+.architecture-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.architecture-parah h3{
+    margin: 10px 0px;
+}
+
+/* ///////////////   Rehabilation container      / /////////////////// */
+
+.rehabilation-inner {
+    position: relative;
+    
+ }
+ .rehabilation-inner img{
+     min-height: 400px;
+    object-fit: cover;
+ }
+ .rehabilation-text{
+     background-color: white;
+     padding: 20px;
+     position: absolute;
+     top: 50%;
+     left: 10px;
+     width: 50%;
+     transform: translate(0px, -50%);
+    
+     
+ }
+ .rehabilation-text p{
+     font-weight: bold;
+     font-size: 22px;
+     margin-bottom: 10px;
+ }
+ 
+ 
+ .rehabilation-text a{
+     color: skyblue;
+     font-size: 12px;
+     opacity: 0.7;
+     
+ }
+
+ 
+/* ///////////////   BEAUTIFULL container      / /////////////////// */
+
+
+.beautiful-inner{
+    text-align: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+.beautifull-img{
+    margin-bottom: 20px; 
+}
+.beautifull-parah h4{
+    font-size: 22px;  
+  }
+.beautifull-parah p{
+    padding: 15px;
+  }
+
+.beautifull-parah a{
+  font-size: 12px;
+   padding: 5px;
+   background-color: skyblue;
+  }
+
+  
+/* ///////////////   Design container      / /////////////////// */
+
+
+
+
+.design-inner{
+    background-color:rgb(195, 227, 240) ;  
+}
+.design-inner ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 28px;
+   width: 100%;
+}
+.design-inner ul li{
+   width: 33.33%;
+   background-color: white;
+   font-weight: bold; 
+}
+
+.design-inner ul li img{
+   width: 100%;
+   display: block;
+  }
+.design-inner ul li p{
+     padding: 10px;
+ 
+}
+.design-inner ul li a{
+    display: block;
+    margin-top: 10px;
+    color: skyblue;
+    font-size: 12px;
+    opacity: 0.7;
+    }
+
+
+/* ///////////////   Guide container       / /////////////////// */
+
+
+
+.guide-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    gap: 15px;
+   }
+   
+   .guide-parah p{
+       margin-bottom: 10px;
+   }
+   .guide-parah a{
+       color: skyblue;
+       font-size: 15px;
+      
+   }
+   
+/* ///////////////   Tasks container       //////////////////// */
+
+
+.tasks-inner{
+    background-color:rgb(195, 227, 240) ;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 30px;
+}
+.task-image img {
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.tasks-info-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    
+}
+.tasks-right{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 15px;
+    height: calc(50% - 7.5px);
+    
+}
+.tasks-about{
+    background-color: white;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+.tasks-about h6{
+      font-size: 16px;   
+  }
+.tasks-about a{
+  color: skyblue;
+    font-size: 12px; 
+     opacity: 0.7;
+}
+
+
+
+/* ///////////////   Famous container       //////////////////// */
+
+.famous-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+}
+.famous-parah p{
+   margin: 15px 0px;
+
+}
+.famous-parah {
+    width: 50%;
+}
+
+.famous-parah a{
+    border: 1px solid skyblue;
+    font-size: 12px;
+    padding: 5px;
+}
+
+
+ 
